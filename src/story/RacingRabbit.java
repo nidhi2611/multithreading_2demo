@@ -15,13 +15,13 @@ public class RacingRabbit extends Thread {
         }
         System.out.print(getName() + " has reached the oak tree and falls asleep");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             System.out.print("interrupt!!!");
         }
         System.out.print(getName() + " has reached the hills");
         try {
-            Thread.sleep(6000);
+            Thread.sleep(1000);
         } catch (InterruptedException e) {
             System.out.print("interrupt!!!");
         }
