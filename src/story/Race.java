@@ -5,6 +5,6 @@ public class Race {
         RacingTortoise tor = new RacingTortoise("Tammy");
         RacingRabbit rab = new RacingRabbit("Rabby");
         tor.start();
-
+        rab.start();
     }
 }
